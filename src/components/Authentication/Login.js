@@ -74,11 +74,11 @@ const Login = () => {
     <VStack spacing="14px">
       <FormControl id="email" isRequired>
         <FormLabel
-          fontFamily='Acephimere'
-          fontSize='4xl'
-          color= '#25b79d'>
+          fontFamily='Poppins'
+          fontSize='1xl'
+          color='#1A202C'>
              <br />
-          Email
+          Email adress
         </FormLabel>
         <Input
           value={email}
@@ -89,9 +89,9 @@ const Login = () => {
       </FormControl>
       <FormControl id="password" isRequired>
         <FormLabel
-          fontFamily='Acephimere'
-          fontSize='4xl'
-          color='#25b79d'>
+          fontFamily='Poppins'
+          fontSize='1xl'
+          color='#1A202C'>
             Password
         </FormLabel>
         <InputGroup size="md">
@@ -111,7 +111,7 @@ const Login = () => {
       <Button
         colorScheme="blue"
         width="100%"
-        style={{ marginTop: 15 }}
+        style={{ marginTop: 30 }}
         onClick={submitHandler}
         isLoading={loading}>
         Login
@@ -120,7 +120,7 @@ const Login = () => {
       <Button
         colorScheme="blue"
         width="100%"
-        style={{ marginTop: 0 }}
+        style={{ marginTop: 5 }}
         isLoading={loading}>
         Create new account
         </Button></Link>

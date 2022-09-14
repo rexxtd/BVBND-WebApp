@@ -17,21 +17,24 @@ function Homepage() {
   return (
     <>
       <Navbar />
-      <div className="login">
-        <div className="loginTop">
-          <div className="loginLeft">
-            <div className="title">
-              For security purposes, please login to use this function.
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <div className="login-left--title text-center">
+              Sign In
+            </div>
+            <div className="login-left--label text-center">
+              For security purposes, please re-login to use Consult Online function
             </div>
             <div className="Homepage">
               <Login />
             </div>
           </div>
-          <div className="loginRight">
-            <div className="background"></div>
+          <div className="col">
+            <img src="https://www.bvbnd.vn/wp-content/uploads/2020/07/IMG_7355-scaled.jpg" alt="" className="hero"/>
+            {/* <div className="background"></div> */}
           </div>
         </div>
-        <div className="loginBottom"></div>
       </div>
     </>
     );

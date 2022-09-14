@@ -1,35 +1,35 @@
 .navbarWrapper {
     background-color: #ffff;
-    height: 190px;
+    /* height: 190px; */
+    /* replaced by the padding below */
+    padding: 60px 0px;
     display: flex;
     width: 100%;
     align-items: center;
     /* position: sticky; */
     /* z-index: 999; */
+    transition-duration: 0.3s;
 }
 
 .navLeft {
     flex: 8;
     display: flex;
     padding-left: 104px;
+    align-items: center;
+}
+
+.navLeft:hover {
+    filter: brightness(55%);
+    border-radius: 20px;
+    transition-duration: 0.3s;
 }
 
 .logoText {
-    font-family: "Acephimere";
+    font-family: "Montserrat";
     font-style: normal;
-    font-weight: 400;
-    font-size: 52px;
-    line-height: 62px;
-    color: #0e1952;
-}
-
-.logoShape {
-    width: 20px;
-    border-radius: 10px;
-    height: 20px;
-    margin-left: 10px;
-    margin-top: 15px;
-    background: #25b79d;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: var(--global-green);
 }
 
 .navCenter {
@@ -38,13 +38,20 @@
 }
 
 .page {
-    font-family: "Acephimere";
+    font-family: var(--global-head);
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
-    padding-left: 58px;
-    color: #000000;
+    margin-left: 3em;
+    color: #2d2d2d;
+}
+
+.page:hover {
+    /* filter: brightness(55%); */
+    background-color: gainsboro;
+    border-radius: 20px;
+    transition-duration: 0.3s;
 }
 
 .navRight {
@@ -55,29 +62,45 @@
 }
 
 .navBtn {
-    width: 90px; 
-    height: 29px;
-    background: #0e1952;
+    width: 8em;
+    height: 2.5em;
+    background: var(--global-blue);
     border-radius: 20px;
+    margin-left: 2em;
     /* margin-right: 96px; */
+}
+
+.navBtn:hover {
+    filter: brightness(55%);
+    transition-duration: 0.3s;
 }
 
 .btnText {
     width: 68px;
     height: 26px;
-    font-family: "Acephimere";
+    font-family: "Montserrat";
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 22px;
     line-height: 26px;
     color: #ffffff;
 }
 
-.navAvatar{
+.navAvatar {
     width: 40px;
     height: 40px;
-    /* margin-right: 30px; */
     border-radius: 50%;
     object-fit: cover;
     cursor: pointer;
+}
+
+.navAvatar:hover {
+    filter: brightness(55%);
+    transition-duration: 0.3s;
+}
+
+.navbar-bvbnd-logo-container {
+    max-height: 50px;
+    max-width: 50px;
+    object-fit: cover;
 }

@@ -141,8 +141,11 @@ function SideDrawer() {
             </Text>
           </Button>
         </Tooltip>
-        <Text fontSize="2xl" fontFamily="Work sans">
-          HOTDOC
+        <Text fontFamily='Montserrat'
+          fontSize='4xl'
+          fontWeight='semibold'
+          color= '#23A455'>
+          Hospital for Tropical Diseases
         </Text>
         <div>
           <Menu>

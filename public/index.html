@@ -2,8 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-        
+        <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+        <link
+            rel="icon"
+            href="https://www.bvbnd.vn/wp-content/uploads/2020/08/LogoBVBND.png"
+        />
+
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <meta
@@ -21,21 +25,53 @@
         <!-- <link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" href="./reponsive.css">
         <link rel="stylesheet" href="widgets.css"> -->
-        <!-- Google Fonts: Fira Sans: Thin 100, Regular 400, Bold 700 -->
+
+        <!-- Google Fonts: Poppins: Thin 100, Regular 400, Bold 700 -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap"
             rel="stylesheet"
         />
-        <link href="http://fonts.cdnfonts.com/css/acephimere" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+        <!-- Google Fonts: Montserrat: Thin 100, Regular 400, Bold 700 -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        />
         <!-- <link rel="stylesheet" href="./style.css"> -->
-        <title>Doctor Now</title>
+        <title>Hospital for Tropical Diseases</title>
     </head>
 
     <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
         <div id="root"></div>
     </body>
+
+    <!-- Script to shrink Navbar when scrolled down -->
+    <script>
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 1 ||
+                document.documentElement.scrollTop > 1
+            ) {
+                console.log("small");
+                document.getElementById("navbar").style.padding = "0px 0px";
+                // document.getElementById("navbar-logo").style.width = "50px";
+            } else {
+                console.log("big");
+                document.getElementById("navbar").style.padding = "60px 0px"; // MUST BE THE SAME WITH VALUE IN navbar.css
+                // document.getElementById("navbar-logo").style.width = "100px";
+            }
+        }
+    </script>
 </html>
