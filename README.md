@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# BVBND Consulting
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Full-Stack Chat Application for Hospital for Tropical Diseases, using [MERN](https://www.mongodb.com/resources/languages/mern-stack-tutorial#:~:text=The%20MERN%20stack%20is%20a,presentation%20layer%2C%20Express%20and%20Node.) and [Socket.io](https://socket.io/docs/v4/).
 
-## Available Scripts
+**Frontend:**
 
-In the project directory, you can run:
+![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
+![react-router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)&nbsp;
+![chakra](https://img.shields.io/badge/Chakra--UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)&nbsp;
+![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
 
-### `npm start`
+**Backend:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)&nbsp;
+![expressjs](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)&nbsp;
+![mongodb](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)&nbsp;
+![jwt](	https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)&nbsp;
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Realtime Communication:**
 
-### `npm test`
+![socketio](https://img.shields.io/badge/Socket.io-010101?&style=for-the-badge&logo=Socket.io&logoColor=white)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Cloud Storage:**
 
-### `npm run build`
+![aws-s3](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Deployed On:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Heroku's Demo: 
+~~[Chat Application](https://bvbnd-messenger.herokuapp.com/)~~
 
-### `npm run eject`
+~~[Main Application](https://bvbnd.herokuapp.com/)~~
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<b>Due to the new Heroku update that removes the free plan, many demos have been taken down.</b>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I recommend hosting the web application using a local address. If there is any new method for hosting the website, I will try to update it. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Authentication
+- Login/Signup User Account
+- Update Profile/Password User Account
+- Blogs and Articles
+- Booking Doctor Appointment
+- Order Medicines
+- Visit Doctors/Users Profile
+- Search Doctors/Users
+- Review doctors
+- Reaction to Blogs/Articles
+- Search Doctors/Users to Chat
+- Add New Chat (1:1)
+- Add New Group Chat
+- Real-Time Chatting with Typing indicators
+- Typing | Online User Status
+- Notifications
+- Add or Remove users from group chat
 
-## Learn More
+## Demonstration
+>To be updated
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Made by:
+- [@rexxtd](https://github.com/rexxtd)
+- [@Tamkieu4299](https://github.com/Tamkieu4299)
