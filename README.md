@@ -1,6 +1,6 @@
 # BVBND Consulting
 
-This is a Full-Stack Chat Application for Hospital for Tropical Diseases, using [MERN](https://www.mongodb.com/resources/languages/mern-stack-tutorial#:~:text=The%20MERN%20stack%20is%20a,presentation%20layer%2C%20Express%20and%20Node.) and [Socket.io](https://socket.io/docs/v4/).
+This is a Full-Stack web application for Hospital for Tropical Diseases Vietnam using MERN Stack and Socket.io, using [MERN](https://www.mongodb.com/resources/languages/mern-stack-tutorial#:~:text=The%20MERN%20stack%20is%20a,presentation%20layer%2C%20Express%20and%20Node.) and [Socket.io](https://socket.io/docs/v4/).
 
 **Frontend:**
 
