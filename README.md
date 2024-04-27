@@ -34,9 +34,9 @@ This is a Full-Stack web application for Hospital for Tropical Diseases Vietnam 
 
 ~~[Main Application](https://bvbnd.herokuapp.com/)~~
 
-<b>Due to new Heroku's update that remove free plan, many demos have been taken down.</b>
+<b>Due to the new Heroku update that removes the free plan, many demos have been taken down.</b>
 
-I recommend to host the web application using local address. If there is any new method to hosting the website, I will try to update it. 
+I recommend hosting the web application using a local address. If there is any new method to hosting the website, I will try to update it. 
 
 ## Features
 
@@ -54,13 +54,38 @@ I recommend to host the web application using local address. If there is any new
 - Search Doctors/Users to Chat
 - Add New Chat (1:1)
 - Add New Group Chat
-- Real Time Chatting with Typing indicators
+- Real-Time Chatting with Typing indicators
 - Typing | Online User Status
 - Notifications
 - Add or Remove users from group chat
 
 ## Demonstration
->To be updated
+
+### Messenger
+
+**Login/Register**
+![login](https://github.com/rexxtd/BVBND-WebApp/blob/main/demo/bvbnd-messenger1.png)
+**Messenger**
+![messenger](https://github.com/rexxtd/BVBND-WebApp/blob/main/demo/bvbnd-messenger2.png)
+**Search Users**
+![search](https://github.com/rexxtd/BVBND-WebApp/blob/main/demo/bvbnd-messenger3.png)
+**Create Group Chat**
+![creategroupchat](https://github.com/rexxtd/BVBND-WebApp/blob/main/demo/bvbnd-messenger4.png)
+**View Chat Profile**
+![viewprofile](https://github.com/rexxtd/BVBND-WebApp/blob/main/demo/bvbnd-messenger5.png)
+
+### Main application
+**Blogs and Articles**
+![newsfeed](https://github.com/rexxtd/BVBND-WebApp/blob/main/demo/bvbnd1.png)
+**Store**
+![order](https://github.com/rexxtd/BVBND-WebApp/blob/main/demo/bvbnd2.png)
+**Find a Doctor**
+![findadoctor](https://github.com/rexxtd/BVBND-WebApp/blob/main/demo/bvbnd3.png)
+**Booking Appointment**
+> To be updated
+
+**Doctor's Profile**
+> To be updated
 
 ## Made by:
 - [@rexxtd](https://github.com/rexxtd)
