@@ -8,6 +8,7 @@ This is a Full-Stack web application for Hospital for Tropical Diseases Vietnam 
 ![react-router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)&nbsp;
 ![chakra](https://img.shields.io/badge/Chakra--UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)&nbsp;
 ![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
+![tailwindcss](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 **Backend:**
 
@@ -43,6 +44,7 @@ I recommend to host the web application using local address. If there is any new
 - Login/Signup User Account
 - Update Profile/Password User Account
 - Blogs and Articles
+- News Feed
 - Booking Doctor Appointment
 - Order Medicines
 - Visit Doctors/Users Profile
