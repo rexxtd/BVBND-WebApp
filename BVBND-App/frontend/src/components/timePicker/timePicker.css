@@ -1,0 +1,19 @@
+.time-selected {
+    border-radius: 99px;
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.timePicker{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    background-color: #fff;
+    margin: 24px auto ;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.time-cell{ 
+    font-size: 1.3em;
+}

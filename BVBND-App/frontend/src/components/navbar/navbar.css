@@ -1,0 +1,58 @@
+.navbar-custom{
+    /* 0px because I wrote px-5 in navbar.js */
+    /* padding: 60px 0px!important; */
+    
+    transition-duration: 0.3s;
+    transition: all 0.3s ease-in-out; 
+}
+
+/* LEFT ------------ */
+.navbar--left--container{
+    transition: all 0.3s ease-in-out; 
+}
+.navbar--left--container:hover{
+    filter: brightness(55%);
+    background-color: gainsboro;
+    border-radius: 20px;
+}
+
+.navbar--left--logo{
+    width: 40px;
+    height: auto;
+    object-fit: cover;
+}
+.navbar--left--text{
+    font-family: var(--global-head);
+    font-weight: 700;
+
+    font-size: 1.2em;
+    color: var(--global-green);
+}
+
+/* CENTER ------------------ */
+.navbar--center--text {
+    font-family: var(--global-head);
+    font-weight: 400;
+    font-size: 1.5em;
+    transition: all 0.3s ease-in-out; 
+}
+.navbar--center--text:hover{
+    filter: brightness(55%);
+    background-color: gainsboro;
+    border-radius: 20px;
+    text-decoration: underline;
+}
+
+/* RIGHT --------------------- */
+.navbar--right--profile-picture{
+    width: 40px;
+    height: auto;
+
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; 
+}
+.navbar--right--profile-picture:hover{
+    filter: brightness(55%);
+}

@@ -33,9 +33,9 @@ This is a Full-Stack Chat Application for Hospital for Tropical Diseases, using 
 
 ~~[Main Application](https://bvbnd.herokuapp.com/)~~
 
-<b>Due to the new Heroku update that removes the free plan, many demos have been taken down.</b>
+<b>Due to new Heroku's update that remove free plan, many demos have been taken down.</b>
 
-I recommend hosting the web application using a local address. If there is any new method for hosting the website, I will try to update it. 
+I recommend to host the web application using local address. If there is any new method to hosting the website, I will try to update it. 
 
 ## Features
 
@@ -52,7 +52,7 @@ I recommend hosting the web application using a local address. If there is any n
 - Search Doctors/Users to Chat
 - Add New Chat (1:1)
 - Add New Group Chat
-- Real-Time Chatting with Typing indicators
+- Real Time Chatting with Typing indicators
 - Typing | Online User Status
 - Notifications
 - Add or Remove users from group chat

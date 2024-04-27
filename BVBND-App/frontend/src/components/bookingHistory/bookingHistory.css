@@ -1,0 +1,7 @@
+.history-card-container--left-card--profile-picture{
+    width: 10em;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}

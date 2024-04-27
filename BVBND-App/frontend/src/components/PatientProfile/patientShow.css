@@ -1,0 +1,54 @@
+.patient-show--left-card,
+.patient-show--right-card {
+    box-shadow: 0px 2px 12px 2px rgb(0 0 0 / 12%);
+    background-color: gainsboro;
+    border-radius: 2em 2em;
+}
+.patientshow-left-card--title,
+.patientshow-right-card--title{
+    font-family: var(--global-head);
+    font-weight: 700;
+    font-size: 4em;
+}
+
+/* LEFT ------------------------------------------------------------------ */
+.patient-show--left-card--profile-picture{
+    width: 10em;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* RIGHT ------------------------------------------------------------------ */
+
+/* WHAT IS THIS? */
+.slideshow {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 500px;
+}
+
+.slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+}
+
+.slide {
+    /* display: inline-block;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #ffff; */
+}
+/* WHAT IS THIS? */
+
+.carousel--buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel--buttons--left, .carousel--buttons--right{
+    font-size: 3rem;
+    cursor: pointer;
+}

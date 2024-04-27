@@ -1,0 +1,2 @@
+mongodb://localhost:27017/doctornow
+mongodb+srv://admin:admin@bvbnd.kgd5ilw.mongodb.net/?retryWrites=true&w=majority&appName=BVBND

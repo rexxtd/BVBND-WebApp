@@ -1,0 +1,114 @@
+.userCard {
+    margin-top: 60px;
+    margin-left: 86px;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 12px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+}
+.userCard:hover{
+    filter: brightness(80%);
+}
+
+.card-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-right {
+    flex: 5;
+    margin: 3em 1em 3em 0em;
+}
+
+.card-left--profile-picture {
+    width: 7em;
+    height: auto; /* auto means auto-adjust 1:1 ratio with width */
+    /* margin: 36px 42px 59px 49px; */
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.card-right--name {
+    font-family: var(--global-head);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 16px;
+    color: var(--global-gray);
+}
+
+.card-right--info {
+    margin-top: 13px;
+    display: flex;
+}
+
+.card-right--info--email {
+    flex: 1;
+    margin-right: 16px;
+    font-family: var(--global-head);
+    font-weight: 400;
+
+    font-size: 20px;
+    line-height: 16px;
+    color: gainsboro;
+}
+
+/* .online {
+    display: flex;
+    flex: 6;
+} */
+
+/* .onlineIcon {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: limegreen;
+    margin-right: 16px;
+    border: 2px solid white;
+} */
+
+/* .onlineText {
+    font-family: "Acephimere";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    color: #434343;
+    opacity: 0.6;
+} */
+
+.card-right--description {
+    margin-top: 1em;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--global-gray);
+    /* opacity: 0.6; */
+}
+
+/* .ratingImg{
+    width: 32px;
+    height: 32px;
+    margin-top: 34px;
+    margin-right: 13px;
+} */
+
+/* .control{
+    display: flex;
+} */
+
+/* .rating{
+    flex:1;
+} */
+
+/* .ratingNumber{
+    font-family: 'Acephimere';
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.6;
+} */
+
+/* .booking{
+    flex: 6;
+} */

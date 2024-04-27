@@ -1,0 +1,2 @@
+mongodb://localhost:27017/doctornow
+mongodb+srv://tamwilltry:Hangtam042127@cluster0.s31ldkf.mongodb.net/?retryWrites=true&w=majority
